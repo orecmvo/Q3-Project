@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css">
+	<title>Sign Up Here</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+	<style>
+
+		body{
+			font-family: "Quicksand", sans-serif;
+		}
+
+		.container{
+			width: 800px;
+			padding: 15px;
+			border-radius: 10px;
+			border-style: solid;
+  			border-width: medium;
+  			border-color: #ede5d6;
+		}
+
+	</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-xl bg-light navbar-light">
+	<a class="navbar-brand">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/VOGUE_LOGO.svg/2560px-VOGUE_LOGO.svg.png" id="brand" width="130px">
+	</a>
+  
+	<div class="container-fluid">
+		<ul class="navbar-nav">
+		    <li class="nav-item">
+		      <a class="nav-link" href="index.html">About</a>
+		    </li>
+		    <li class="nav-item ">
+		    	<a class="nav-link" href="discography.html">Discography</a>
+		    </li>
+		   <li class="nav-item"> 
+		    	<a class="nav-link" href="musicvid.html">Music Videos</a>
+		    </li>
+		    <li class="nav-item"> 
+		    	<a class="nav-link" href="socmed.html">SocMed Accs</a>
+		    </li>
+		    <li class="nav-item"> 
+		    	<a class="nav-link" href="signup.html">Sign Up</a>
+		    </li>
+		</ul>
+	</div>
+</nav>
+
+<br/>
+
+	<div class="container">
+		<h2>Sign Up Here</h2>
+		<form class="form">
+
+	    	<div class="mb-3">
+	        	<label class="form-label" for="inputEmail">Email</label>
+	        	<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+	    	</div>
+
+	   		<div class="mb-3">
+	        	<label class="form-label" for="inputPassword">Password</label>
+	        	<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+	    	</div>
+
+	   	 	<div class="mb-3">
+		        	<div class="form-check">
+	            		<input class="form-check-input" type="checkbox" id="checkRemember">
+	            		<label class="form-check-label" for="checkRemember">Remember me</label>
+	        		</div>
+	    	</div>
+
+    	<button type="submit" class="btn btn-outline light">Sign in</button>
+
+	</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+p{
+	font-size:18px;
+}
+
+
+.navbar{
+	padding:25px;
+}
+
+body{
+	font-family: "Quicksand", sans-serif;
+	background-color: 	#9f9980;
+	color:#ede5d6;
+}
+
+h1{
+	font-family: "Cinzel", serif;
+	color: 	#534a48;
+}
+
+h5{
+	font-family: "Cinzel", serif;
+	color: 	#534a48;
+}
+
+img{
+	border:8px double #f8f9fa;
+}
